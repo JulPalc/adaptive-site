@@ -1,0 +1,148 @@
+@media (max-width: 1200px) {
+    .nav, .account {
+        display: flex;
+    }
+
+    .nav-button {
+        display: none;
+    }
+
+    .mobile-nav {
+        display: none;
+    }
+
+    .hero-title {
+        font-size: 33px;
+    }
+
+}
+@media (max-width:870px){
+    .article-img img{
+        height: 330px;
+    }
+}
+
+@media (max-width: 800px) {
+    .nav, .account{
+        display: none;
+    }
+    .nav-button{
+        display: block;
+    }
+    .mobile-nav-active{
+        display: flex;
+    }
+    .hero-title{
+        font-size: 27px;
+    }
+    .container{
+        padding-top: 100px;
+    }
+    .article {
+        margin-bottom: 60px;
+    }
+    .article-text{
+        padding-left: 50px;
+    }
+    .article-img img{
+        height: 300px;
+    }
+
+}
+
+@media (max-width:600px){
+    .header{
+        padding: 15px;
+    }
+    .container{
+        margin: 40px 40px;
+        padding-top: 30px;
+    }
+    .hero-title{
+        font-size: 14px;
+    }
+    .article-text{
+        padding-left: 20px;
+    }
+    .article-img img{
+        height: 300px;
+    }
+    .footer{
+        padding: 20px;
+    }
+}
+@media (max-width:500px){
+    .header{
+        padding: 10px;
+    }
+    .hero-title{
+        font-size: 12px;
+    }
+    .article-text{
+        padding-left: 10px;
+    }
+    .article-title{
+        font-size: 25px;
+    }
+    .article-text p{
+        font-size: 13px;
+    }
+    .article-img img{
+        height: 220px;
+    }
+    .footer-nav{
+        font-size: 15px;
+    }
+    .footer-copyright-desc{
+        font-size: 12px;
+    }
+    .footer-copyright-logo{
+        font-size: 16px;
+    }
+    .footer-copyright-terms{
+        font-size: 9px;
+    }
+    .icons img{
+        height: 40px;
+
+    }
+}
+@media (max-width:400px){
+    .container{
+        margin: 30px 30px;
+        padding-top: 10px;
+    }
+    .article {
+        margin-bottom: 50px;
+    }
+    .article-text{
+        padding-left: 10px;
+    }
+    .article-title{
+        font-size: 20px;
+    }
+    .article-text p{
+        font-size: 10px;
+    }
+    .article-img img{
+        height: 200px;
+    }
+    .footer{
+        padding: 20px;
+    }
+    .footer-nav{
+        font-size: 12px;
+    }
+    .footer-copyright-desc{
+        font-size: 10px;
+    }
+    .footer-copyright-logo{
+        font-size: 10px;
+    }
+    .footer-copyright-terms{
+        font-size: 6px;
+    }
+    .icons img{
+        height: 30px;
+    }
+}
